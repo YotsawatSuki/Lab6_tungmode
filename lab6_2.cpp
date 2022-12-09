@@ -2,12 +2,12 @@
 #include <cmath>
 using namespace std;
 
-double deg2rad(double Deg){
-        return Deg*(M_PI/180);
+double deg2rad(double D){
+        return D*(M_PI/180);
     }
 
-double rad2deg(double Rad){
-        return Rad*(180/M_PI);
+double rad2deg(double R){
+        return R*(180/M_PI);
     }
 
 double findXComponent(double l1,double l2,double a1,double a2){
